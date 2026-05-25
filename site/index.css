@@ -1,0 +1,17 @@
+.table-wrapper {
+    width: 100%;
+    max-height: 400px; /* vertical scroll */
+    overflow: auto;
+    border: 1px solid #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    padding: 8px;
+    border: 1px solid #999;
+    white-space: nowrap; /* prevents text wrapping */
+}
