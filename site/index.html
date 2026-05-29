@@ -8,7 +8,7 @@
     <body>
         <div id="title">Grants not containing published list of flagged terms.</div>
         <div class="table-wrapper">
-            <div id="table-container"></div>
+            <div id="table-noterms-container"></div>
         </div>
 
 
@@ -25,12 +25,14 @@
                             table += "</tr>";
                         });
                         table += "</table>";
-                        document.getElementById("table-container").innerHTML = table;
+                        document.getElementById("table-noterms-container").innerHTML = table;
                     },
                     error: function(error) {
                         console.error("CSV Load Error:", error);
                     }
                 });
+
+                
             </script>
     </body>
 </html>
