@@ -3,17 +3,54 @@
     <head>
         <link rel="stylesheet" href="./index.css">
         <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+        <script src="jquery-3.7.1.min.js"></script>
 
+
+        <link rel="stylesheet" href="./index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Fredoka:wght@300..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
     </head>
     <body>
-        <div id="title">Grants not containing published list of flagged terms.</div>
+        <div class="content fade-in">
+
+            <nav class="sidenav zilla-slab-light">
+                <a href="#">background</a>
+                <a href="#">prev. experience</a>
+                <a href="#">projects</a>
+                <a href="#">education</a>
+
+            </nav>
+        
+            <main class="main-content">
+                <section class="intro-top" id="about-me">
+                    <div class="section-text">
+        
+        
+                        <h1 class="name-header zilla-slab-medium">
+                            U.S. Department of Health and Human Services (HHS) Grant Terminations
+                        </h1>
+        
+                        <div class="intro">
+                            <div class="extra-info">                                Posted June 1, 2026 | Last updated June 1, 2026
+                            </div>
+                            <h2 class="sub-header zilla-slab-light">
+                            </h2>
+        
+                        </div>
+        
+                    </div>
+                </section>
+
+        <!-- <div id="title">Grants not containing published list of flagged terms.</div>
         <div class="table-wrapper">
             <div id="table-noterms-container"></div>
-        </div>
-
-
+        </div> 
         <script>
-                Papa.parse("../data/no_flagged_terms.csv", {
+                Papa.parse("../data/hhs_with_terms_5-29-2026", {
                     download: true,
                     complete: function(results) {
                         let table = "<table>";
@@ -33,6 +70,6 @@
                 });
 
                 
-            </script>
+            </script> -->
     </body>
 </html>
