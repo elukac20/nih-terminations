@@ -117,11 +117,22 @@ html {
 a {
     text-decoration: none; 
     color: inherit;
+
   }
 
 a:hover {
 color: rgb(77, 77, 77);
 text-decoration: none;
+}
+
+.in-text-link{
+    text-decoration: underline; 
+    color: rgb(56, 84, 169);
+}
+
+.in-text-link:hover {
+  color:  rgb(99, 134, 238);
+  text-decoration: underline;
 }
 
 
@@ -144,6 +155,12 @@ text-decoration: none;
     align-items: center;
 }
 
+.title {
+  padding-top: 20vh;
+  min-height:0vh;
+
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -154,7 +171,7 @@ text-decoration: none;
 .main-content {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 800px;
 }
 
 
@@ -162,7 +179,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 500px;
+    width: 800px;
     font-size: 16px;
 
 }
@@ -185,11 +202,12 @@ text-decoration: none;
 }
 
 .extra-info {
-    color: rgb(144, 144, 144);
-    font-size: 15px;
-    margin:2px 0px 0px 0px;
-    
+  color: rgb(144, 144, 144);
+  font-size: 16px;
+  margin:2px 0px 0px 0px;
+  
 }
+
 
 
 
